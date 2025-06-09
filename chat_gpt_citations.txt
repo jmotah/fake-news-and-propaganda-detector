@@ -1,0 +1,21 @@
+CITATION #1 USED IN `model_utils.py`
+    PROMPT: How to use pandas read_csv to read a tsv file?
+    ANSWER: 
+        """
+        To read a TSV (tab-separated values) file using pandas.read_csv, you just need to specify the separator (sep) as '\t' (the tab character). Here’s how:
+
+        import pandas as pd
+
+        # Read the TSV file
+        df = pd.read_csv('your_file.tsv', sep='\t')
+
+        # Preview the data
+        print(df.head())
+
+        Notes:
+	        •	Replace 'your_file.tsv' with the path to your file.
+	        •	If your TSV file doesn’t have headers, add header=None to the function call.
+	        •	You can also use delimiter='\t' instead of sep='\t'; both work the same.
+
+        Let me know if your file has special characteristics (like encoding, quotes, etc.), and I can adjust the parameters.
+        """
