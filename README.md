@@ -43,7 +43,7 @@ Who wrote the data in it?: The data was primarily written by news reporters and 
 
 
 # Repository Layout
-
+```
 fake-news-and-propaganda-detector:
     - chat_gpt_citations.txt
     - fake_news_transformer.ipynb
@@ -74,6 +74,7 @@ fake-news-and-propaganda-detector:
         - speak_tokens_maps.json
         - tokenizer_config.json
         - vocab.txt
+```
 
 
 
